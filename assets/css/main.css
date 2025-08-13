@@ -611,6 +611,30 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Link Zalo Link Button
+--------------------------------------------------------------*/
+.zalo-link {
+  position: fixed;
+  right: 15px;
+  bottom: 80px;
+  z-index: 99999;
+  background-color: var(--accent-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  transition: all 0.4s;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.zalo-link:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  color: var(--contrast-color);
+}
+
+
+/*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
 --------------------------------------------------------------*/
 @media screen and (max-width: 768px) {
